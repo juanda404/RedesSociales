@@ -80,56 +80,6 @@ El diseño utiliza un esquema de colores en degradado:
 
 Para personalizar tu información, edita el archivo `src/index.js`:
 
-```javascript
-const profile = {
-  name: "Juan David Santamaría Gómez 🇨🇴",
-  username: "@juanda404",
-  title: "Front-End Developer, built my first website in 2001.",
-  subtitle: "Currently a Freelance Developer. #JavaScript #React 🇨🇴",
-  bio: "Frontend developer constantly learning React.js. Currently working as a freelancer. Gym enthusiast and always striving to improve.",
-  avatar: "https://pbs.twimg.com/profile_images/...",
-  email: "juandavidsantamariag@gmail.com",
-  socialMedia: [
-    { name: "YouTube", url: "tu-url", icon: "youtube-icon" },
-    { name: "GitHub", url: "tu-url", icon: "github-icon" },
-    { name: "Instagram", url: "tu-url", icon: "instagram-icon" },
-    { name: "Twitter", url: "tu-url", icon: "twitter-icon" },
-    { name: "LinkedIn", url: "tu-url", icon: "linkedin-icon" }
-  ],
-  links: [
-    { 
-      title: "Platzi", 
-      url: "URL", 
-      emoji: "💻",
-      bgColor: "bg-blue-900" 
-    },
-    { 
-      title: "Entrenamiento", 
-      url: "URL", 
-      emoji: "💪",
-      bgColor: "bg-blue-700" 
-    },
-    { 
-      title: "blog", 
-      url: "URL", 
-      emoji: "💬",
-      bgColor: "bg-cyan-500" 
-    },
-    { 
-      title: "motivation", 
-      url: "URL", 
-      emoji: "🥕",
-      bgColor: "bg-cyan-400" 
-    },
-    { 
-      title: "projects", 
-      url: "URL", 
-      emoji: "🎬",
-      bgColor: "bg-cyan-300" 
-    }
-  ]
-};
-```
 
 ## 🎨 Características
 
